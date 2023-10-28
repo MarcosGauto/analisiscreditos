@@ -4,6 +4,7 @@ import backImg from "../img/fondo.png"
 
 const Login = () => {
 
+
     return(
         <div className="contenedorImg">
             <div class="container">
@@ -16,7 +17,7 @@ const Login = () => {
                             </div>
                             <div class="login__field">
                                 <i class="login__icon fas fa-lock"></i>
-                                <input type="password" class="login__input" placeholder="Password"></input>
+                                <input type="password" class="login__input" placeholder="Password" ></input>
                             </div>
                             <button class="button login__submit">
                                 <span class="button__text">Login</span>
