@@ -1,5 +1,4 @@
 :root{
-    background: linear-gradient(black, white);
     --text-light: rgba(255,255,255,0.6);
     --text-lighter: rgba(255,255,255,0.9);
     --spacing-s: 8px;
@@ -25,17 +24,17 @@ html{
 
 .name-section{
     width:100%;
-    color: white;
+    color: black;
     font-size:20px;
     text-align:center;
-    padding:80px
+    padding:20px
 }
 
 .name-gn{
     margin-bottom: var(--spacing-s);
     text-transform: uppercase;
     font-size: 1.9rem;
-    color: var(--text-lighter);
+    color: black;
     font-size: 5rem;
     text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
     line-height: 1.4;
@@ -48,4 +47,5 @@ html{
     margin-bottom: var(--spacing-s);
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+    padding:10px;
 }

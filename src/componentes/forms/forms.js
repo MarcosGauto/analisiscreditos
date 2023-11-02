@@ -70,6 +70,38 @@ function Forms() {
                 }
             </div>
         </div>
+        <div>
+            <form>
+                <div>
+                    <label> Razon Social</label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label> Score Nosis</label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label> Localidad</label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label> Sucursales</label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label> Riesgo estimado</label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label> Tipo de empresa</label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label> Razon Social</label>
+                    <input type="text"/>
+                </div>
+            </form>
+        </div>
     </div>
     );
 }
