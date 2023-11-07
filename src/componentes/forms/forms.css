@@ -42,10 +42,10 @@ html{
 }
 
 .name-analist{
-    color: var(--text-light);
     font-size: 1.9rem;
     margin-bottom: var(--spacing-s);
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     padding:10px;
 }
+

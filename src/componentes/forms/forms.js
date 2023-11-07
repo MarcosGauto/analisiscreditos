@@ -1,6 +1,8 @@
 import "../forms/forms.css"
 import React, { useState } from 'react';
 import Stepper from 'react-stepper-horizontal';
+import InfoGeneral from "../infoGeneral/InfoGeneral";
+import Hola from "./Hola";
 
 function UserDetails() {
     return <h2>Informacion General</h2>;
@@ -39,8 +41,8 @@ function Forms() {
 
     function getSectionComponent() {
         switch (activeStep) {
-            case 0: return <UserDetails />;
-            case 1: return <Scoring />;
+            case 0: return <InfoGeneral />;
+            case 1: return <Hola />;
             case 2: return <BankInformation />;
             case 3: return <TaxInformation />;
             case 4: return <AccountingInformation />;
@@ -54,6 +56,10 @@ function Forms() {
             <div className="name-section">
             <p className="name-gn">Grupo Nucleo </p>
             <p className="name-analist">Analisis Crediticio </p> 
+            </div>
+            <div>
+                <label>CUIT</label>
+                <input type="text"/>
             </div>
 
         <div>
@@ -69,38 +75,6 @@ function Forms() {
                     && <button onClick={() => setActiveStep(activeStep + 1)}>Next</button>
                 }
             </div>
-        </div>
-        <div>
-            <form>
-                <div>
-                    <label> Razon Social</label>
-                    <input type="text"/>
-                </div>
-                <div>
-                    <label> Score Nosis</label>
-                    <input type="text"/>
-                </div>
-                <div>
-                    <label> Localidad</label>
-                    <input type="text"/>
-                </div>
-                <div>
-                    <label> Sucursales</label>
-                    <input type="text"/>
-                </div>
-                <div>
-                    <label> Riesgo estimado</label>
-                    <input type="text"/>
-                </div>
-                <div>
-                    <label> Tipo de empresa</label>
-                    <input type="text"/>
-                </div>
-                <div>
-                    <label> Razon Social</label>
-                    <input type="text"/>
-                </div>
-            </form>
         </div>
     </div>
     );
