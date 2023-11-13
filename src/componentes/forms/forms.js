@@ -2,7 +2,7 @@ import "../forms/forms.css"
 import React, { useState } from 'react';
 import Stepper from 'react-stepper-horizontal';
 import InfoGeneral from "../infoGeneral/InfoGeneral";
-import Hola from "./Hola";
+import ModeloDeScoring from "../modeloDeScoring/modeloDeScoring";
 
 function UserDetails() {
     return <h2>Informacion General</h2>;
@@ -42,7 +42,7 @@ function Forms() {
     function getSectionComponent() {
         switch (activeStep) {
             case 0: return <InfoGeneral />;
-            case 1: return <Hola />;
+            case 1: return <ModeloDeScoring/>;
             case 2: return <BankInformation />;
             case 3: return <TaxInformation />;
             case 4: return <AccountingInformation />;
@@ -57,9 +57,9 @@ function Forms() {
             <p className="name-gn">Grupo Nucleo </p>
             <p className="name-analist">Analisis Crediticio </p> 
             </div>
-            <div>
-                <label>CUIT</label>
-                <input type="text"/>
+            <div className="cuit">
+                <label >CUIT</label>
+                <input type="text" className="inputCuit"/>
             </div>
 
         <div>

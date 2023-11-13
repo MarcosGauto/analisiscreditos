@@ -1,7 +1,7 @@
 import React from 'react'
-import "../infoGeneral/infoGeneral.css"
+import "../modeloDeScoring/modeloDeScoring.css"
 
-const IfoGeneral = () => {
+const ModeloDeScoring = () => {
   return (
     <>
       <div className='textForm'>
@@ -36,4 +36,4 @@ const IfoGeneral = () => {
   )
 }
 
-export default IfoGeneral
+export default ModeloDeScoring;

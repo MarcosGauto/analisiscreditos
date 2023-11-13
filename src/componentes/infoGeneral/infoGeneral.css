@@ -1,29 +1,34 @@
 
 
 .textForm{
+	display:flex;
+	justify_content:center;
 	font-size:30px;
 	place_item: center;
 	height: 600px;
 	padding: 20px;
+	width:100%;
+	
+
 }
 
 .textinfo{
-	text-align:center;
-	flex-direction:column;
 	borde-sizing: border-box;
 	background: #ecf0f3;
 	padding: 40px;
 	border-radius: 20px;
-	width:auto;
+	width:100%;
 	height:auto;
 
 }
 
-input{
-	border-radius: 5px;
-    background-color: #def;
-    padding: 5px;
-    margin:15px;
-    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
-    margin-top: 20px;
+input {
+	width: 80%;
+	height:40px;
+	display:flex;
+	justify_content:center
+}
+
+label{
+	padding:10px;
 }
