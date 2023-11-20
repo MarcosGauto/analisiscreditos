@@ -72,7 +72,7 @@ function Forms() {
                     && <button onClick={() => setActiveStep(activeStep - 1)}>Previous</button>
                 }
                 {activeStep !== steps.length - 1
-                    && <button onClick={() => setActiveStep(activeStep + 1)}>Next</button>
+                    && <button  onClick={() => setActiveStep(activeStep + 1)}>Next</button>
                 }
             </div>
         </div>

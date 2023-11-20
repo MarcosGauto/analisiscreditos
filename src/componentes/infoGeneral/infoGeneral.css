@@ -1,5 +1,3 @@
-
-
 .textForm{
 	display:flex;
 	justify_content:center;
@@ -23,7 +21,7 @@
 }
 
 input {
-	width: 80%;
+	width: 90%;
 	height:40px;
 	display:flex;
 	justify_content:center
