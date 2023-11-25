@@ -1,10 +1,10 @@
 import React from 'react'
-import "../infoGeneral/infoGeneral.css"
+import "../infoFiscal/infoFiscal.css"
 
-const InfoGeneral = () => {
-  return (
+const InfoFiscal = () => {
+    return (
     <>
-      <div className='textForm'>
+        <div className='textForm'>
             <form className='textinfo'>
                 <div>
                     <label> Razon Social</label>
@@ -36,4 +36,4 @@ const InfoGeneral = () => {
   )
 }
 
-export default InfoGeneral
+export default InfoFiscal;

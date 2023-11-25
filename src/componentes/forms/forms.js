@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Stepper from 'react-stepper-horizontal';
 import InfoGeneral from "../infoGeneral/InfoGeneral";
 import ModeloDeScoring from "../modeloDeScoring/modeloDeScoring";
+import InfoBancaria from "../infoBancaria/infoBancaria";
 
 function UserDetails() {
     return <h2>Informacion General</h2>;
@@ -16,7 +17,7 @@ function BankInformation() {
     return <h2>Informacion Bancaria</h2>;
 }
 
-function TaxInformation() {
+function InfoFiscal() {
     return <h2>Informacion Fiscal</h2>;
 }
 function AccountingInformation() {
@@ -43,8 +44,8 @@ function Forms() {
         switch (activeStep) {
             case 0: return <InfoGeneral />;
             case 1: return <ModeloDeScoring/>;
-            case 2: return <BankInformation />;
-            case 3: return <TaxInformation />;
+            case 2: return <InfoBancaria />;
+            case 3: return <InfoFiscal/>;
             case 4: return <AccountingInformation />;
             case 5: return <Confirmation />;
             default: return null;
